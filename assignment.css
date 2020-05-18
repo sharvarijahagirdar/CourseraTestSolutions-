@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align:right ;
+}
+.Chicken{
+    background-color: aqua;
+}
+.Bacon{
+    background-color: blanchedalmond;
+}
+.Fish{
+    background-color: cornflowerblue;
+}
+@media screen and (min-width: 750px){
+    .Chicken{
+        width: 33%;
+        float: left;
+    }
+    .Bacon{
+        width: 33%;
+        float: left;
+    }
+    .Fish{
+        width: 33%;
+        float: left;
+    }
+}@media screen and (max-width: 749px) and (min-width: 481px){
+    .Chicken{
+        width: 50%;
+        float: left;
+    }
+    .Bacon{
+        width: 50%;
+        float: left;
+    }
+    .Fish{
+        width: 100%;
+        float: left;
+    }
+}
